@@ -16,7 +16,6 @@ provider:
   environment:
     NOTES_TABLE: ${self:service}-${opt:stage, 'dev'}
 
-
 resources:
   Resources:
     NotesTable:
